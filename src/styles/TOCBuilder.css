@@ -1,0 +1,80 @@
+.toc-builder {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.btn-success {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-success:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
+.chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chapter-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.chapter-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.drag-handle {
+  cursor: grab;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.chapter-number {
+  font-weight: bold;
+  color: #666;
+}
+
+.chapter-title-input,
+.chapter-card h3 {
+  flex: 1;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.chapter-title-input {
+  padding: 0.5rem;
+  border: 1px solid #1976d2;
+  border-radius: 4px;
+}
+
+.btn-icon {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #d32f2f;
+}
+
+.chapter-summary {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: inherit;
+}
